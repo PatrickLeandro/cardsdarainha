@@ -1,0 +1,26 @@
+*{ 
+    margin: 0;
+    padding: 0;
+
+}
+.container {    
+    background-color: #3498db;
+    
+}
+.menu{  
+    height: 120px;
+    background-color: rgba(240, 248, 255, 0.08);
+}
+
+.cabecalho{
+    color: white;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
