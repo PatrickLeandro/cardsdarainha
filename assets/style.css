@@ -25,6 +25,7 @@
 .cabecalho{
     color: white;
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
     align-items: center;
     width: 100%;
