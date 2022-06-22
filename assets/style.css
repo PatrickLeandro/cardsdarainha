@@ -9,9 +9,14 @@
 }
 .menu{  
     height: 120px;
-    background-color: rgba(240, 248, 255, 0.08);
+    background-color: rgb(39, 136, 225);
+    padding-left: 30px;
+    padding-right: 30px;
+    
 }
-
+.logo{
+    width: 90px;
+}
 .cabecalho{
     color: white;
     display: flex;
@@ -23,4 +28,9 @@
 h1{
     text-align: center;
     margin: 20px;
+    font-weight: 500;
 }
+.mocap{
+    width: 550px;
+}
+
