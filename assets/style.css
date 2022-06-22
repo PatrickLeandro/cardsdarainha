@@ -5,6 +5,8 @@
 }
 .container {    
     background-color: #3498db;
+    padding: 0%;
+    margin: 0;
     
 }
 .menu{  
@@ -12,10 +14,13 @@
     background-color: rgb(39, 136, 225);
     padding-left: 30px;
     padding-right: 30px;
+    color: white;
+    display: flex;
+    align-items: center;
     
 }
 .logo{
-    width: 90px;
+    width: 250px;
 }
 .cabecalho{
     color: white;
@@ -24,13 +29,32 @@
     align-items: center;
     width: 100%;
     justify-content: space-evenly;
+    padding: 50px 00px;
 }
-h1{
+.left h1{
     text-align: center;
     margin: 20px;
     font-weight: 500;
 }
 .mocap{
-    width: 550px;
+    width: 100%;
+    max-width: 550px;
 }
 
+.ocasiao{
+    background-color: white;
+    margin: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.ocasiao h2{
+    font-size: 50px;
+    margin: 30px;
+    color: rgb(71, 28, 111);
+}
+
+.ocasiao p{
+    font-size: 20px;
+    margin: 30px;
+}
