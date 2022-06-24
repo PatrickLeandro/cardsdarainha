@@ -77,10 +77,61 @@ body{
     flex-wrap: wrap;
     justify-content: center;
 }
-.ocasioes div{
+.ocasioes {
     margin: 20px;
+}
+.ocasioes div{
+    margin-right: 10px;
+    margin-left: 10px;
 }
 .ocasioes img{
     width: 200px;
-    border-radius: 100%;
+    border-radius: 40px;
+}
+
+.vantagens{
+    background-color: #23648c;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.vantagens .teste{
+    width: 300px;
+    margin-top: 60px;
+}
+.titleVantagens{
+    display: flex;
+    justify-content: center;
+}
+.titleVantagens h2{
+    background-color: #23648c;
+    color: white;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    text-align: center;
+
+}
+.titleVantagens h3{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+.titleVantagens img{
+    width: 80px;
+}
+.vantagens p{
+    text-align: center;
+    margin: 15px;
+}
+
+#interativo{
+    border: 4px solid white;
+    border-radius: 50%;
+    width: 65px;
+}
+
+#impacto{   
+    width: 90px;
 }
