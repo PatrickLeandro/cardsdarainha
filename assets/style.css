@@ -135,3 +135,20 @@ body{
 #impacto{   
     width: 90px;
 }
+
+.funcionalidades{
+    background-color: #23648c;
+    color: white;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 80px;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.funcionalidades img{
+    width: 100%;
+    max-width: 800px;
+}
